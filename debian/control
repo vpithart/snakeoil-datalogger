@@ -1,0 +1,12 @@
+Source: elektrobot-datalogger
+Section: utils
+Priority: optional
+Maintainer: Vojtech Pithart <vpithart@lhota.hkfree.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: elektrobot-datalogger
+Architecture: all
+Depends: ${misc:Depends}, bash (>= 5.0)
+Description: Deye RS485-PostgreSQL Datalogger
+ Zapisuje trvale dlouhodobě provozní údaje se střídače(ů) Deye a BMS do databáze.
