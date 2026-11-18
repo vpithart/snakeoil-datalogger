@@ -1,0 +1,6 @@
+services:
+  debian-machine:
+    image: debian-machine
+    build: ./
+    volumes:
+      - .:/data
