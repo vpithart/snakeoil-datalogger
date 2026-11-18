@@ -1,0 +1,5 @@
+.debhelper
+snakeoil-datalogger
+snakeoil-datalogger.substvars
+debhelper-build-stamp
+files
