@@ -1,0 +1,4 @@
+# Config pro: deye-modbus-postgresql-datalogger.sh
+#             seplos-battery-postgresql-datalogger.sh
+PSQL_URI="postgres://fve:the-password@db.server.net/energy"
+LOAD_POWER_ON_GRID_SIDE_HACK=false
