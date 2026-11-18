@@ -1,13 +1,13 @@
 Source: snakeoil-datalogger
-Maintainer: Lars Wirzenius <liw@liw.fi>
+Maintainer: Vojtech Pithart <vpithart@lhota.hkfree.org>
 Section: misc
 Priority: optional
 Standards-Version: 4.7.0
 Build-Depends: debhelper-compat (= 13)
 
 Package: snakeoil-datalogger
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: greet user
- hithere greets the user, or the world.
+Architecture: all
+# Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Datalogger for Deye SUN-* hybrid inverters
+ Datalogger for Deye SUN-* hybrid inverters with RS485 Modbus interface
 

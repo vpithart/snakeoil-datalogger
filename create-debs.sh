@@ -6,4 +6,9 @@
 tar cvzf snakeoil-datalogger_1.0.orig.tar.gz snakeoil-datalogger-1.0/*
 
 cd snakeoil-datalogger-1.0
-debuild  -us -uc
+
+# (A)
+debuild -us -uc
+
+# (B)
+# dpkg-buildpackage -A -uc

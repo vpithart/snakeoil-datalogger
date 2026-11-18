@@ -1,0 +1,2 @@
+opt/fve-datalogger/deye-modbus-postgresql-datalogger.sh /usr/bin
+opt/fve-datalogger/datalogger.conf /etc

@@ -6,8 +6,8 @@ set -e
 
 # config
 cd $(dirname "${BASH_SOURCE[0]}")
-source datalogger.conf.default
-[ -f datalogger.conf ] && source datalogger.conf
+
+source /etc/datalogger.conf
 
 # Ktery stridac? (1, 2, 3, ...)
 N=${1:-1}
@@ -148,7 +148,7 @@ then
 
       LOAD_W=$(calc -- "round($Grid_W - $Grid_CT_W)" | tr -d '\t')
       GRID_W=$Grid_CT_W
-    else 
+    else
       # Pri zapojeni "spotreba na GRIDu", firmware 1172, standalone mode
       LOAD_W=$(($R619 - $R607))
       GRID_W=$((-1 * $R619))
